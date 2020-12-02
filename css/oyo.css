@@ -1,0 +1,858 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    
+}
+#LogoAndMenuBlock{
+    background-color: #ffffff;
+    height: 70px;
+    box-shadow: 1px 1px 5px 1px #eee;
+    display: flex;
+    align-items: center;
+    
+
+}
+#LogoAndMenuBlock article{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+#logo{
+    width: 81px;
+    height: 29px;
+    fill: #ee2e24;
+}
+.LogoBlock{
+    width: 60%;
+    float: left;
+}
+.MenuBlock{
+    width: 40%;
+    float: left;
+}
+
+
+#wizard-logo{
+    width: 25px;
+    height: 18px;
+    background-color: #111111;
+    padding:10px ;
+    border-radius: 3px;
+
+}
+
+.MenuBlock .menuRight ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.menuLeft{
+    width: 50%;
+    float: left;
+}
+.menuRight{
+    width: 50%;
+    float: left;
+}
+.menuLeft>div>:nth-child(1){
+    margin: 0 6px;
+    float: left;
+    font-size: 14px;
+}
+.menuLeft>div>:nth-child(2){
+ font-size: 11px;
+ margin:0 6px;
+ float: left;
+
+}
+.MenuBlock .menuRight ul li{
+    display: inline;
+    /* border-right: 1px solid #eee; */
+}
+.MenuBlock .menuRight ul li a{
+    
+    text-decoration: none;
+    color: #444444;
+    padding-left: 10px;
+}
+        
+
+.svgClass{
+    float: left;
+    display: block;
+    margin: 0px 7px;
+
+}
+/*  */
+/*  */
+#city{
+    background-color: #f3f5f7;
+    height: 40px;
+}
+#city article{
+    width: 90%;
+    margin: 0 auto;
+}
+#city ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+#city ul li{
+    float: left;
+    margin: 0 2px;
+   
+}
+#city ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #666;
+
+}
+#city ul li a::after{
+    content: '^';
+    margin: 0px 3px;
+    line-height: 10px;
+}
+/*  */
+/*slider start  */
+#sliderBlock{
+    background: linear-gradient(135.46deg,#d11450,#df293a);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#sliderBlock article{
+    width: 90%;
+    margin: 0 auto;
+}
+#sliderBlock header p{
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin: 10px 0px 20px;
+    color: #fff;
+    
+}
+#sliderBlock>article>main>form>span>input:nth-of-type(1){
+    width: 100%;
+    border-radius: 5px 0px 0px 5px;
+
+    
+
+}
+#sliderBlock>article>main>form>span{
+    width: 30%;
+    position: relative;
+   
+}
+.nearme{
+    position: absolute;
+    background-color: #eee;
+    padding: 5px 13px;
+    border-radius: 20px;
+    right: 8px;
+    top: 17px;
+    font-size: 13px;
+    color: #111111;
+    font-weight: 800;
+    
+}
+
+#sliderBlock>article>main>form>input:nth-of-type(1){
+    width:20% ;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    
+    
+}
+#sliderBlock>article>main>form>input:nth-of-type(2){
+    width:20% ;
+    
+    
+}
+#sliderBlock>article>main>form>input:nth-of-type(1){
+    color: rgba(0,0,0,.87);
+    font-weight: 600;  
+}
+#sliderBlock>article>main>form>input:nth-of-type(2)::placeholder{
+    color: rgba(0,0,0,.87);
+    font-weight: 600;
+}
+#sliderBlock>article>main>form>input
+{
+    padding:18px ;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;
+    
+    
+}
+#sliderBlock>article>main>form>span>#input1{
+    padding: 21px;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-size: 18px;
+   
+   border: none;
+}
+#sliderBlock>article>main>form{
+    display: flex;
+    justify-content: center;
+    border: none
+}
+#sliderBlock>article>main>form>button{
+    background-color: #1ab64f;
+    color: white;
+    padding: 20px 60px;
+    border:none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 16px;
+}
+/* slider end */
+/* banner */
+
+#addblock article{
+    width: 90%;
+    margin: 0 auto;
+}
+#addblock article img{
+    width: 100%;
+    height: 140px;
+    border-radius: 4px;
+}
+#addblock article figure{
+    margin: 40px 0;
+}
+/* banner end */
+/* save block start */
+
+/* save block end */
+#saveBlock article{
+    width: 90%;
+    margin: 0 auto;
+}
+#saveBlock article p{
+    font-weight: 700;
+    font-size: 26px;
+    color: #000;
+    font-family: Open Sans,sans-serif;
+}
+#saveBlock article main div{
+    width:32%;
+    height: 200px;
+    overflow: hidden;
+    
+    
+}
+#saveBlock article main{
+    display: flex;
+    justify-content: space-between;
+}
+#saveBlock article div img{
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+}
+#saveBlock article div img:hover{
+    transform: scale(1.1);
+    transition: ease all 0.7s;
+}
+/* oyo hotel and home */
+/* end oyo hotel and home */
+#hotelsandHomes article{
+    width: 90%;
+    margin: 0 auto;
+}
+#hotelsandHomes #rightmain{
+    width: 60%;
+    height: auto;
+    
+    
+}
+
+#hotelsandHomes  #leftmain{
+    width: 40%;
+    height: 444px;
+}
+#hotelsandHomes main{
+    display: flex;
+}
+#leftmain section {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 30px 20px;
+    background-color: #ededed;
+    box-shadow: 0 8px 22px 0 hsla(0, 0%, 58%, 0.18);
+    border-bottom: 1px solid #d4d4d4;
+    justify-content: center;
+}
+#leftmain figure{
+    margin: 0 ;
+    padding: 0;
+}   
+#leftmain img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    
+}
+#innerBlockLeft{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#innerBlockRight{
+    width: 78%;
+
+}
+#leftmain section:hover{
+    border-left: 3px solid #ee2e24;
+    background-color: #fff;
+    transition: esa all 0.4s;
+    cursor: pointer;
+}
+#leftmain figcaption{
+   background: #fff;
+   padding: 3px 10px;
+   border-radius: 5px;
+   box-shadow:1px 4px 2px 1px #ccc;
+   font-size: 13px;
+   margin: -19px 0 14px;
+}
+#leftmain .redCaption{
+    color:white;
+    background-color: red;
+}
+#leftmain .blackCaption{
+    color: white;
+    background: #111111;
+}
+#leftmain .blueCaption{
+    color: white;
+    background: rgb(0, 33, 72);
+}
+#leftmain .goldCaption{
+    color: black;
+    background: linear-gradient(110deg, rgb(186, 133, 57), rgb(248, 241, 157));
+}
+#leftmain figcaption{
+    font-size: 14px;
+}
+#leftmain a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ee2e24;
+    display: block;
+}
+#rightmain figure{
+    padding: 0;
+    margin: 0;
+}
+#rightmain img{
+    width: 100%;
+    height: 555px;
+}
+/* Hotel chain Css start */
+#HotelChain{
+    background-color: #f3f5f7;
+    height: 500px;
+    margin-top: 40px;
+    padding: 40px 0;
+}
+#HotelChain article{
+    display: flex;
+}
+.leftHotelChain{
+    width: 50%;
+    background-image: url(../images/HotelChain/widgetImage\ \(1\).png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+.leftHotelChain figure{
+    padding: 0;
+    margin: 0;
+    
+
+}
+.leftHotelChain img{
+    width: 125px;
+    height: 130px;
+    
+}
+.imgBlock1{
+    position: absolute;
+    top: 84px;
+    left: 144px;
+}
+.imgBlock2{
+    position: absolute;
+    top: 38px;
+    right: 217px;
+}
+.imgBlock3{
+    position: absolute;
+    top:19px;
+    right: 69px;
+}
+.imgBlock4{
+    position: absolute;
+    top: 195px;
+    left: 307px;
+}
+.imgBlock5{
+    position: absolute;
+    right: 65px;
+    top: 163px;
+}
+.imgBlock6{
+    position: absolute;
+    top: 301px;
+    right: 122px;
+}
+
+.rightHotelChain{
+    width: 50%;
+    
+}
+.rightHotelChain header h1
+
+{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+}
+.rightHotelChain header p{
+    font-size: 22px;
+    color: #666;
+}
+.rightHotelChain main{
+    display: flex;
+    margin: 40px 0;
+    
+    
+    
+}
+.rightHotelChain main div{
+    width: auto;
+    transform: skewX(-30deg);
+    padding: 0 17px;
+    
+}
+#inside{
+    transform: skew(30deg)!important;
+}
+#middleOne{
+    border-left: 1px solid #979797;
+    border-right: 1px solid #979797;
+    
+}
+
+.rightHotelChain div h4{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    
+}
+.rightHotelChain div p{
+    margin: 0;
+    color: #666;
+}
+
+.rightHotelChain footer{
+    padding: 0;
+    margin: 0;
+}
+.rightHotelChain footer ul {
+    
+    padding: 18px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+.rightHotelChain footer  li{
+    
+    
+    width: 189px;
+    margin: 20px 0;
+    pointer:cursor;
+    position: relative;
+    
+}
+.rightHotelChain footer li a{
+    
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+}
+.rightHotelChain ul li span{
+    float: left;
+    height: 8px;
+    width: 8px;
+    background-color: #111111;
+    display: block;
+    text-indent: -9999px;
+    border-radius: 100%;
+    position: absolute;
+    top: 8px;
+    left: -20px;
+}
+.rightHotelChain .india{
+    background-color: green;
+}
+.rightHotelChain .china{
+    background-color:#ff7f7b;
+}
+.rightHotelChain .malaysia{
+    background-color: #f5a623;
+}
+.rightHotelChain .nepal{
+    background-color: #5fd6f2;
+}
+.rightHotelChain indonesia{
+    background-color: #fe94f1;
+}
+.rightHotelChain uae{
+    background-color: #7e89e4;
+}
+/* Hotel chain css end */
+/* hotel guide start */
+#oyoHotelGuide article{
+    width: 90%;
+    margin: 0 auto;
+}
+#oyoHotelGuide header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#oyoHotelGuide header h4{
+    
+    font-size: 25px;
+    font-weight: 800;
+}
+#oyoHotelGuide div{
+    width: 32%;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+}
+
+#oyoHotelGuide img{
+    width: 388px;
+    height: 214px;
+}
+#oyoHotelGuide main{
+    display: flex;
+    
+    justify-content: space-between;
+}
+#oyoHotelGuide figure{
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+   
+}
+#oyoHotelGuide figcaption{
+    margin: 25px;
+    
+}
+#oyoHotelGuide figcaption p{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#oyoHotelGuide figcaption div{
+    width: 100%;
+}
+#oyoHotelGuide figcaption .a{
+    margin: 54px 0 -25px;
+
+}
+#oyoHotelGuide a{
+    text-decoration: none;
+    color: #ee2e24;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* hotel guide end */
+
+
+/* People check start */
+#peopleCheck{
+    height: 500px;
+    width: 100%;
+    clear: both;
+    position: relative;
+    top: 407px;
+}
+#peopleCheck img{
+    width: 100%;
+}
+#peopleCheck figure{
+    padding: 0;
+    margin: 0;
+}
+#peopleCheck .count{
+    
+    width: 400px;
+    height: 300px;
+    border-color: transparent;
+    border-radius: 4px;
+    position: absolute;
+    background-color: #fff;
+    top: 164px;
+    left: 81px;
+    box-shadow: 0 12px 11px 2px rgba(0,0,0,.1);
+    display: block;
+}
+#peopleCheck section{
+    display: flex;
+    align-items: center;
+    padding: 0 18px 0;
+    margin: -5px 0 -21px;
+}
+#peopleCheck .count div:nth-child(1) span{
+    width: 150px;
+    font-size: 126px;
+    color: black;
+    font-weight: bold;
+}
+#peopleCheck .count div:nth-child(2) span{
+    width: 200px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+#peopleCheck .count .p{
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    padding: 0 18px 0;
+    margin-bottom: 34px;
+} 
+.count a{
+    text-decoration: none;
+    color: #fff;
+    background: green;
+    border-radius: 4px;
+    padding: 19px 50px;
+    margin: 16px;
+    font-weight: bold;
+}
+/* People check end */
+/* footer start */
+#footerSection{
+    height: 100%;
+    clear: both;
+    position: relative;
+    z-index: 1;
+    top: 567px;
+    background: #6d787d;
+}
+#footerSection .table{
+    border-bottom: 1px solid #fff;
+    position: relative;
+    top: 71px;
+    
+}
+#footerSection article{
+    width: 90%;
+    margin: 0 auto;
+}
+#footerSection header{
+    height: 15%;
+    display: flex;
+    margin-top: 28px;
+    
+}
+#logo1{
+    width: 81px;
+    height: 29px;
+    fill: whitesmoke;
+}
+#footerSection .footerHeaderRight span{
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 28px;
+}
+#footerSection main{
+    height: 70%;
+}
+#footerSection .firstBlock{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    border-bottom: 1px solid #fff;
+    margin: 20px 0 20px;
+}
+#footerSection .firstBlock .a{
+    margin: 12px 0 12px;
+    color: #fff;
+    font-size: 14px;
+}
+
+#footerSection main .firstBlock .appicons a .appstore,
+#footerSection main .firstBlock .appicons a .playstore{
+    display: flex;
+    margin-right: 12px;
+    padding: 7px;
+    
+}
+#footerSection main .firstBlock .appicons a .appstore div:nth-child(2),
+#footerSection main .firstBlock .appicons a .playstore div:nth-child(2){
+    margin-left: 10px;
+}
+#footerSection main .firstBlock .appicons a .appstore p,
+#footerSection main .firstBlock .appicons a .playstore p{
+    padding: 0;
+    margin: 0;
+    font-size: 9px;
+}
+#footerSection main .firstBlock .appicons a .appstore h5,
+#footerSection main .firstBlock .appicons a .playstore h5{
+    padding: 0;
+    margin: 0;
+    font-size:18px;
+}
+#footerSection main .firstBlock .appicons a .appstore i,
+#footerSection main .firstBlock .appicons a .playstore i{
+    font-size: 40px;
+}
+#footerSection main .firstBlock .appicons  {
+    align-items: center;
+    display: flex;
+    
+}
+#footerSection main .firstBlock .appicons #appStore,
+#footerSection main .firstBlock .appicons #playStore{
+    background: black;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 180px;
+    margin: 21px 17px 0 0px;
+}
+#footerSection .firstBlock .a,
+#footerSection .firstBlock .c
+{
+    width: 35%;
+    height: 20%;
+    /* padding: 0;
+    margin: 0; */
+}
+#footerSection .firstBlock .b{
+    width: 40%;
+    height: 20px;
+}
+#footerSection .firstBlock .b div:nth-child(1){
+    border-left: 1px solid #fff;
+    padding-left: 24px;
+    
+
+}
+#footerSection .firstBlock .b div:nth-child(2){
+    border-right : 1px solid #fff;
+    padding-right: 60px;
+    margin-right: -65px;
+}
+#footerSection .firstBlock ul li{
+    list-style: none;
+    
+}
+#footerSection .firstBlock .b ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 58px;
+    line-height: 2;
+    flex-wrap: wrap;
+}
+#footerSection .firstBlock .c ul{
+    line-height: 2;   
+}
+#footerSection .firstBlock a{
+    text-decoration: none;
+    color: #fff;
+}
+#footerSection .secondBlock{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-bottom: 21px;
+}
+#footerSection .thirdBlock .thirdBlockOyoHotels{
+ margin-top: 32px;
+}
+#footerSection .thirdBlock .thirdBlockOyoHotels span{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: .6px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#footerSection .thirdBlock .ul {
+    padding: 0;
+    margin: 0; 
+    list-style: none;
+
+}
+#footerSection .thirdBlock .ul li{
+    line-height:2 ;
+   display: inline-block; 
+   width: 195px;
+   margin: 0 1px 0;
+}
+#footerSection .thirdBlock .ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+#footerSection .thirdBlock{
+    border-top: 1px solid #fff;
+}
+#footerSection footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    border-top: 1px solid #fff;
+}
+#footerSection footer div span a{
+    font-size: 45px;
+    margin: 10px;
+    color: #fff;
+
+}
+#footerSection footer div:nth-child(2){
+    color: hsla(0,0%,100%,.7);
+    font-weight: 700;
+    font-size: 12px;
+}
+#footerSection footer div{
+    margin: 18px 0 18px;
+}
